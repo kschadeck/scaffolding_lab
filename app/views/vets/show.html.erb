@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @vet.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @vet.address %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @vet.phone %>
+</p>
+
+
+<%= link_to 'Edit', edit_vet_path(@vet) %> |
+<%= link_to 'Back', vets_path %>
